@@ -1,0 +1,14 @@
+tm_imu:
+  ros__parameters:
+    imu_baudrate : 115200
+    imu_port : "/dev/ttyACM0"
+    output_topic_imu: "/sensors/imu/transducer_tm151/imu"
+    output_topic_rpy: "/sensors/imu/transducer_tm151/rpy"
+    output_topic_mag: "/sensors/imu/transducer_tm151/mag"
+    publish_tf: False
+    negate_x_accel: True
+    negate_y_accel: True
+    negate_z_accel: True
+    imu_frame_id : 'imu_transducerm_tm151'
+    timer_period : 50
+    transform : [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
